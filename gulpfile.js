@@ -42,8 +42,17 @@ gulp.task('html', () => {
     ;
 });
 
+// Copy images to dist folder
+gulp.task('img', () => {
+  return gulp.src('src/images/*.*')
+    .pipe(gulp.dest('dist/images'))
+    .pipe(connect.reload())
+    .pipe(refresh())
+    ;
+});
+
 // Compile html and css.
-gulp.task('build', ['html', 'css']);
+gulp.task('build', ['html', 'css', 'img']);
 
 // Create a server on http://localhost:8080
 gulp.task('connect', () => {
