@@ -10,7 +10,7 @@
     "start": "gulp dev"
   },
   "dependencies": {
-    "normalize.css": "^7.0.0"
+    "normalize-scss": "^7.0.0"
   },
   "devDependencies": {
     "del": "^3.0.0",

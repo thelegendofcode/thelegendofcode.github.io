@@ -16,10 +16,14 @@ gulp.task('dev', ['build', 'connect', 'watch']);
 
 // Output SCSS to CSS
 gulp.task('css', () => {
-  return gulp.src('src/scss/**/styles.scss')
+  return gulp.src('src/scss/**/*.scss')
     .pipe(plumber({errorHandler: dontCrash}))
     .pipe(sourcemaps.init())
-    .pipe(sass())
+    .pipe(sass({
+      includePaths: [
+        'node_modules/normalize-scss/sass'
+      ]
+    }))
     .pipe(cleanCss())
     .pipe(concat('styles.css'))
     .pipe(sourcemaps.write())
