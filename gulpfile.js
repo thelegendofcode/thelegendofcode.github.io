@@ -20,12 +20,14 @@ gulp.task('dev', ['build', 'connect', 'watch']);
 
 gulp.task('pcss', () => {
   return gulp.src('src/css/**/*.css')
-    // .pipe(plumber({errorHandler: dontCrash}))
+    .pipe(plumber({errorHandler: dontCrash}))
+    .pipe(sourcemaps.init())
     .pipe(postCss([
       atImport(),
       cssNano(),
       autoprefixer(),
     ]))
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('dist/css/'))
     .pipe(connect.reload())
     .pipe(refresh())
