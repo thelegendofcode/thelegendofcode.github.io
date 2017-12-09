@@ -26,6 +26,7 @@
     "gulp-sourcemaps": "^2.6.1",
     "gulp-util": "^3.0.8",
     "http-server": "^0.10.0",
+    "normalize.css": "^7.0.0",
     "postcss-import": "^11.0.0",
     "stylelint": "^8.3.1"
   }
