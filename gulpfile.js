@@ -6,6 +6,8 @@ const
   gulp = require('gulp'),
   gutil = require('gulp-util'),
   plumber = require('gulp-plumber'),
+  postCss = require('gulp-postcss'),
+  atImport = require('postcss-import'),
   refresh = require('gulp-refresh'),
   sass = require('gulp-sass'),
   sourcemaps = require('gulp-sourcemaps')
@@ -13,6 +15,18 @@ const
 
 // Launch dev server and watch html and scss files.
 gulp.task('dev', ['build', 'connect', 'watch']);
+
+gulp.task('pcss', () => {
+  return gulp.src('src/css/**/*.css')
+    // .pipe(plumber({errorHandler: dontCrash}))
+    .pipe(postCss([
+      atImport()
+    ]))
+    .pipe(gulp.dest('dist/css/'))
+    .pipe(connect.reload())
+    .pipe(refresh())
+    ;
+});
 
 // Output SCSS to CSS
 gulp.task('css', () => {
