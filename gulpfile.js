@@ -1,7 +1,9 @@
 const
+  autoprefixer = require('autoprefixer'),
   cleanCss = require('gulp-clean-css'),
   concat = require('gulp-concat'),
   connect = require('gulp-connect'),
+  cssNano = require('cssnano'),
   del = require('del'),
   gulp = require('gulp'),
   gutil = require('gulp-util'),
@@ -20,7 +22,8 @@ gulp.task('pcss', () => {
   return gulp.src('src/css/**/*.css')
     // .pipe(plumber({errorHandler: dontCrash}))
     .pipe(postCss([
-      atImport()
+      atImport(),
+      cssNano(),
     ]))
     .pipe(gulp.dest('dist/css/'))
     .pipe(connect.reload())
