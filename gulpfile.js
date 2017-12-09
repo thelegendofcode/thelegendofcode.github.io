@@ -24,6 +24,7 @@ gulp.task('pcss', () => {
     .pipe(postCss([
       atImport(),
       cssNano(),
+      autoprefixer(),
     ]))
     .pipe(gulp.dest('dist/css/'))
     .pipe(connect.reload())
