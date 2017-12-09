@@ -67,6 +67,12 @@ gulp.task('watch', () => {
   gulp.watch('src/css/**/*.css', ['css']);
 });
 
+// Cleans dist folder
+gulp.task('clean', () =>
+  del('dist/*').then(paths => {
+    console.log('Files and folders to be deleted:\n', paths.join('\n') );
+  }));
+
 // Prevent gulp watch from crashing on errors.
 function dontCrash(err) {
   console.log(err.toString());
