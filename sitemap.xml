@@ -3,12 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://legendofcode.com/categories/</loc>
-    <priority>0</priority>
+    <loc>http://legendofcode.com/posts/introduction/</loc>
+    <lastmod>2019-05-16T01:27:55+09:00</lastmod>
   </url>
   
   <url>
     <loc>http://legendofcode.com/</loc>
+    <lastmod>2019-05-16T01:27:55+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/posts/</loc>
+    <lastmod>2019-05-16T01:27:55+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/categories/</loc>
     <priority>0</priority>
   </url>
   
