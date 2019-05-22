@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tils on Legend of Code</title>
+    <link>http://legendofcode.com/til/</link>
+    <description>Recent content in Tils on Legend of Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
+    <lastBuildDate>Wed, 22 May 2019 14:18:37 +0000</lastBuildDate>
+    
+	<atom:link href="http://legendofcode.com/til/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thing I Learned</title>
+      <link>http://legendofcode.com/til/til/</link>
+      <pubDate>Wed, 22 May 2019 14:18:37 +0000</pubDate>
+      
+      <guid>http://legendofcode.com/til/til/</guid>
+      <description>A category for short memos of things I&amp;rsquo;ve learned.</description>
+    </item>
+    
+  </channel>
+</rss>
