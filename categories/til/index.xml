@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Legend of Code</title>
-    <link>http://legendofcode.com/categories/</link>
-    <description>Recent content in Categories on Legend of Code</description>
+    <title>til on Legend of Code</title>
+    <link>http://legendofcode.com/categories/til/</link>
+    <description>Recent content in til on Legend of Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
     <lastBuildDate>Wed, 22 May 2019 14:18:37 +0000</lastBuildDate>
     
-	<atom:link href="http://legendofcode.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://legendofcode.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>til</title>
-      <link>http://legendofcode.com/categories/til/</link>
+      <title>Thing I Learned</title>
+      <link>http://legendofcode.com/til/til/</link>
       <pubDate>Wed, 22 May 2019 14:18:37 +0000</pubDate>
       
-      <guid>http://legendofcode.com/categories/til/</guid>
-      <description></description>
+      <guid>http://legendofcode.com/til/til/</guid>
+      <description>A category for short memos of things I&amp;rsquo;ve learned.</description>
     </item>
     
   </channel>
