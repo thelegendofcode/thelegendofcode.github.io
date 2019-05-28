@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
-    <lastBuildDate>Thu, 16 May 2019 01:27:55 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2019 00:18:28 +0900</lastBuildDate>
     
 	<atom:link href="http://legendofcode.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Writing my own Hugo theme</title>
+      <link>http://legendofcode.com/posts/writing-my-own-hugo-theme/</link>
+      <pubDate>Wed, 29 May 2019 00:18:28 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/posts/writing-my-own-hugo-theme/</guid>
+      <description>There&amp;rsquo;re billions upon billions of very well made themes for Hugo out there, so it&amp;rsquo;s a huge waste of my time to even attempt writing my own. Time that can be well spent working on Budgeteer or SnowboardGP or Kutsurogi or Okra or Libraga, and so on. I have so many ideas, all of them barely touched upon.
+ I DO NOT HAVE THE THE TIME TO WRITE MY OWN THEME!</description>
+    </item>
     
     <item>
       <title>Introduction</title>

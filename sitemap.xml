@@ -3,13 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://legendofcode.com/categories/</loc>
-    <lastmod>2019-05-22T14:18:37+00:00</lastmod>
+    <loc>http://legendofcode.com/</loc>
+    <lastmod>2019-05-29T00:18:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://legendofcode.com/</loc>
+    <loc>http://legendofcode.com/posts/</loc>
+    <lastmod>2019-05-29T00:18:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/posts/writing-my-own-hugo-theme/</loc>
+    <lastmod>2019-05-29T00:18:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/categories/</loc>
     <lastmod>2019-05-22T14:18:37+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -34,12 +45,6 @@
   <url>
     <loc>http://legendofcode.com/posts/introduction/</loc>
     <lastmod>2019-05-16T01:27:55+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/posts/</loc>
-    <lastmod>2019-05-16T01:27:55+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
