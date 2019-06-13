@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Hugo Theme Two</title>
+      <link>http://legendofcode.com/posts/hugo-theme-two/</link>
+      <pubDate>Fri, 14 Jun 2019 00:51:49 +0800</pubDate>
+      <author></author>
+      <guid>http://legendofcode.com/posts/hugo-theme-two/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Writing my own Hugo theme</title>
       <link>http://legendofcode.com/posts/writing-my-own-hugo-theme/</link>
       <pubDate>Wed, 29 May 2019 00:18:28 +0900</pubDate>

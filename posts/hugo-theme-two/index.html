@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en-us">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>Hugo Theme Two | Legend of Code</title>
+
+
+
+<link rel="stylesheet" href="/css/style.css"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="http://legendofcode.com/">
+          <h1 class="title is-4">Legend of Code</h1>
+        </a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile"><a class="level-item" aria-label="github" href='https://github.com/thelegendofcode'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+            </span>
+          </a></nav>
+      </div>
+    </nav>
+
+    <nav class="nav">
+      
+      <div class="nav-left"><a class="nav-item" href="/posts">
+          <h2 class="title is-5">Posts</h2>
+        </a><a class="nav-item" href="/til">
+          <h2 class="title is-5">TIL</h2>
+        </a></div>
+      
+
+      
+    </nav>
+
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+      
+<a class="subtitle is-6" href="/tags/hugo">#hugo</a>
+
+
+
+  
+  | <a class="subtitle is-6" href="/tags/development">#development</a>
+  
+
+      
+    </div>
+    <h2 class="subtitle is-6">June 14, 2019</h2>
+    <h1 class="title">Hugo Theme Two</h1>
+    
+    <div class="content">
+      
+
+<p>There doesn&rsquo;t seem to be a lot of info out there about creating a theme in Hugo so I&rsquo;ve been reading the docs to figure out how the various <a href="https://gohugo.io/functions/">functions</a> and <a href="https://gohugo.io/variables/">variables</a> work. So here&rsquo;s a list of things I figured out while on a plane flying eight hours to attend my cousin&rsquo;s wedding.</p>
+
+<h2 id="new-theme-scaffolding">New theme scaffolding</h2>
+
+<pre><code class="language-bash">hugo new theme fantasy
+</code></pre>
+
+<p>This command creates a new theme called <code>fantasy</code> within the themes folder. You should know that it&rsquo;s quite sparse. The basic directory structure is all setup and a few html files are created, but the html files are blank.</p>
+
+<p>Generating with this theme essentially creates a <em>blank</em> page. Fear the white canvas!</p>
+
+<h2 id="partials">Partials</h2>
+
+<p><code>partial</code> is how Hugo splits a page into partials. The structure is basically</p>
+
+<pre><code>{{ partial &quot;path/name&quot; $CONTEXT}}
+</code></pre>
+
+<p>So something like this.</p>
+
+<pre><code class="language-html">&lt;!-- index.html --&gt;
+{{ partial &quot;header&quot; . }}
+&lt;p&gt;something in between&lt;/p&gt;
+{{ partial &quot;footer&quot; . }}
+
+
+&lt;!-- header.html --&gt;
+&lt;h1&gt;I am a header&lt;/h1&gt;
+
+
+&lt;!-- footer.html --&gt;
+&lt;span&gt;I am a footer&lt;/span&gt;
+</code></pre>
+
+<p>Generates a html like this.</p>
+
+<pre><code class="language-html">&lt;h1&gt;I am a header&lt;/h1&gt;
+&lt;p&gt;something in between&lt;/p&gt;
+&lt;span&gt;I am a footer&lt;/span&gt;
+</code></pre>
+
+<p><code>partial</code> seems to automagically refer to anything within the <code>layouts/partials</code> directory. You can even refer to a partial from a partial, like so.</p>
+
+<pre><code class="language-html">&lt;!-- header.html --&gt;
+&lt;h1&gt;{{ partial &quot;nested&quot; . }}&lt;/h1&gt;
+
+
+&lt;!-- nested.html --&gt;
+&lt;p&gt; I am nested within header &lt;/p&gt;
+
+
+&lt;!-- generates this --&gt;
+&lt;h1&gt;&lt;p&gt; I am nested within header &lt;/p&gt;&lt;/h1&gt;
+</code></pre>
+
+<h2 id="the-dot">The Dot</h2>
+
+<p>The dot is basically like <code>this</code> in Javascript. It refers to the current context. Using the same example as in partials, it basically means &lsquo;pass in all data from index into header&rsquo;. Using just <code>.</code> passes in the global context, basically <strong>everything</strong>. You can also pass in something more specific, like only page contents using the <a href="https://gohugo.io/variables/page/#pages">.Page</a> variable. This is useful when your partial is only generating something limited, like say a list of posts or tags.</p>
+
+<pre><code class="language-html">{{ partial &quot;nested&quot; .Page }}
+</code></pre>
+
+<h2 id="looping-things">Looping things</h2>
+
+<p>You can loop using the <code>range</code> keyword.</p>
+
+<pre><code class="language-html">&lt;!-- $ARRAY := [1, 2, 3] --&gt;
+{{ range $ARRAY }}
+  &lt;span&gt;{{ . }}&lt;/span&gt;
+{{ end }}
+
+&lt;!-- generates --&gt;
+&lt;span&gt;1&lt;/span&gt;
+&lt;span&gt;2&lt;/span&gt;
+&lt;span&gt;3&lt;/span&gt;
+</code></pre>
+
+<h2 id="things-i-couldn-t-figure-out">Things I couldn&rsquo;t figure out</h2>
+
+<ul>
+<li>how to get SASS to work</li>
+<li>how to get postcss to work</li>
+</ul>
+
+<p>My excuse was that I was on a plane flying over open water with <del>no</del> ridiculously expensive internet access. Downloading NPM packages didn&rsquo;t really seem worth the costs.</p>
+
+<h2 id="next-action">Next action</h2>
+
+<p>I&rsquo;ve messed around with it enough to get something sort of working. I should probably spend a couple days working on a design.</p>
+
+      
+    </div>
+    
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="https://github.com/thelegendofcode">Sen Heng</a> 2019</p>
+    
+  </div>
+</section>
+
+
+
+</body>
+</html>
+

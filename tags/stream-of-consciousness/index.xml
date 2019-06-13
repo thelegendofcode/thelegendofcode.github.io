@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stream of consciousness on Legend of Code</title>
+    <link>http://legendofcode.com/tags/stream-of-consciousness/</link>
+    <description>Recent content in stream of consciousness on Legend of Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
+    <lastBuildDate>Thu, 16 May 2019 01:27:55 +0900</lastBuildDate>
+    
+	<atom:link href="http://legendofcode.com/tags/stream-of-consciousness/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://legendofcode.com/posts/introduction/</link>
+      <pubDate>Thu, 16 May 2019 01:27:55 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/posts/introduction/</guid>
+      <description>I have been trying to write this intro for the past month now but I haven&amp;rsquo;t been able to write anything satisfactory, so this is pure stream of consciousness.
+I&amp;rsquo;m setting up this journal to record my thought processes as I develop some apps for my own personal use. Hopefully it may prove useful to someone out there. At the very least, it should serve as a reminder of the mistakes I&amp;rsquo;ll make and any lessons I learn.</description>
+    </item>
+    
+  </channel>
+</rss>
