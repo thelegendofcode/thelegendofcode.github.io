@@ -12,41 +12,51 @@
     
     
     <item>
+      <title>Theme Design Dos And Do-Nots</title>
+      <link>http://legendofcode.com/posts/004-theme-design-dos-and-do-nots/</link>
+      <pubDate>Sat, 15 Jun 2019 02:24:52 +0900</pubDate>
+      <author></author>
+      <guid>http://legendofcode.com/posts/004-theme-design-dos-and-do-nots/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Hugo Theme Two</title>
-      <link>http://legendofcode.com/posts/hugo-theme-two/</link>
+      <link>http://legendofcode.com/posts/003-hugo-theme-two/</link>
       <pubDate>Fri, 14 Jun 2019 00:51:49 +0800</pubDate>
       <author></author>
-      <guid>http://legendofcode.com/posts/hugo-theme-two/</guid>
+      <guid>http://legendofcode.com/posts/003-hugo-theme-two/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Writing my own Hugo theme</title>
-      <link>http://legendofcode.com/posts/writing-my-own-hugo-theme/</link>
+      <link>http://legendofcode.com/posts/002-writing-my-own-hugo-theme/</link>
       <pubDate>Wed, 29 May 2019 00:18:28 +0900</pubDate>
       <author></author>
-      <guid>http://legendofcode.com/posts/writing-my-own-hugo-theme/</guid>
+      <guid>http://legendofcode.com/posts/002-writing-my-own-hugo-theme/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Thing I Learned</title>
-      <link>http://legendofcode.com/til/til/</link>
+      <link>http://legendofcode.com/til/001-til/</link>
       <pubDate>Wed, 22 May 2019 14:18:37 +0000</pubDate>
       <author></author>
-      <guid>http://legendofcode.com/til/til/</guid>
+      <guid>http://legendofcode.com/til/001-til/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Introduction</title>
-      <link>http://legendofcode.com/posts/introduction/</link>
+      <link>http://legendofcode.com/posts/001-introduction/</link>
       <pubDate>Thu, 16 May 2019 01:27:55 +0900</pubDate>
       <author></author>
-      <guid>http://legendofcode.com/posts/introduction/</guid>
+      <guid>http://legendofcode.com/posts/001-introduction/</guid>
       <description></description>
       
     </item>

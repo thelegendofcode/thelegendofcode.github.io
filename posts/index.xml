@@ -7,39 +7,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
-    <lastBuildDate>Fri, 14 Jun 2019 00:51:49 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2019 02:24:52 +0900</lastBuildDate>
     
 	<atom:link href="http://legendofcode.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Theme Design Dos And Do-Nots</title>
+      <link>http://legendofcode.com/posts/004-theme-design-dos-and-do-nots/</link>
+      <pubDate>Sat, 15 Jun 2019 02:24:52 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/posts/004-theme-design-dos-and-do-nots/</guid>
+      <description>When gathering requirements, it&amp;rsquo;s often just as helpful to define what are the things you &lt;em&gt;shouldn&amp;rsquo;t&lt;/em&gt; do as much as the things you should do.</description>
+    </item>
+    
+    <item>
       <title>Hugo Theme Two</title>
-      <link>http://legendofcode.com/posts/hugo-theme-two/</link>
+      <link>http://legendofcode.com/posts/003-hugo-theme-two/</link>
       <pubDate>Fri, 14 Jun 2019 00:51:49 +0800</pubDate>
       
-      <guid>http://legendofcode.com/posts/hugo-theme-two/</guid>
-      <description>There doesn&amp;rsquo;t seem to be a lot of info out there about creating a theme in Hugo so I&amp;rsquo;ve been reading the docs to figure out how the various functions and variables work. So here&amp;rsquo;s a list of things I figured out while on a plane flying eight hours to attend my cousin&amp;rsquo;s wedding.
-New theme scaffolding hugo new theme fantasy  This command creates a new theme called fantasy within the themes folder.</description>
+      <guid>http://legendofcode.com/posts/003-hugo-theme-two/</guid>
+      <description>There doesn&amp;rsquo;t seem to be a lot of info out there about creating a theme in Hugo so I&amp;rsquo;ve been reading the docs to figure out how the various functions and variables work. So here&amp;rsquo;s a list of things I figured out while on a plane flying eight hours to attend my cousin&amp;rsquo;s wedding.</description>
     </item>
     
     <item>
       <title>Writing my own Hugo theme</title>
-      <link>http://legendofcode.com/posts/writing-my-own-hugo-theme/</link>
+      <link>http://legendofcode.com/posts/002-writing-my-own-hugo-theme/</link>
       <pubDate>Wed, 29 May 2019 00:18:28 +0900</pubDate>
       
-      <guid>http://legendofcode.com/posts/writing-my-own-hugo-theme/</guid>
-      <description>There&amp;rsquo;re billions upon billions of very well made themes for Hugo out there, so it&amp;rsquo;s a huge waste of my time to even attempt writing my own. Time that can be well spent working on Budgeteer or SnowboardGP or Kutsurogi or Okra or Libraga, and so on. I have so many ideas, all of them barely touched upon.
- I DO NOT HAVE THE THE TIME TO WRITE MY OWN THEME!</description>
+      <guid>http://legendofcode.com/posts/002-writing-my-own-hugo-theme/</guid>
+      <description>There&amp;rsquo;re billions upon billions of very well made themes for Hugo out there, so it&amp;rsquo;s a huge waste of my time to even attempt writing my own.</description>
     </item>
     
     <item>
       <title>Introduction</title>
-      <link>http://legendofcode.com/posts/introduction/</link>
+      <link>http://legendofcode.com/posts/001-introduction/</link>
       <pubDate>Thu, 16 May 2019 01:27:55 +0900</pubDate>
       
-      <guid>http://legendofcode.com/posts/introduction/</guid>
-      <description>I have been trying to write this intro for the past month now but I haven&amp;rsquo;t been able to write anything satisfactory, so this is pure stream of consciousness.
-I&amp;rsquo;m setting up this journal to record my thought processes as I develop some apps for my own personal use. Hopefully it may prove useful to someone out there. At the very least, it should serve as a reminder of the mistakes I&amp;rsquo;ll make and any lessons I learn.</description>
+      <guid>http://legendofcode.com/posts/001-introduction/</guid>
+      <description>I have been trying to write this intro for the past month now but I haven&amp;rsquo;t been able to write anything satisfactory, so this is pure stream of consciousness.</description>
     </item>
     
   </channel>

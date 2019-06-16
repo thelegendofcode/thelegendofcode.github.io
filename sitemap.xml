@@ -3,47 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://legendofcode.com/posts/hugo-theme-two/</loc>
-    <lastmod>2019-06-14T00:51:49+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://legendofcode.com/</loc>
-    <lastmod>2019-06-14T00:51:49+08:00</lastmod>
+    <lastmod>2019-06-15T02:24:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://legendofcode.com/posts/</loc>
-    <lastmod>2019-06-14T00:51:49+08:00</lastmod>
+    <lastmod>2019-06-15T02:24:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://legendofcode.com/tags/</loc>
-    <lastmod>2019-06-14T00:51:49+08:00</lastmod>
+    <lastmod>2019-06-15T02:24:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://legendofcode.com/posts/004-theme-design-dos-and-do-nots/</loc>
+    <lastmod>2019-06-15T02:24:52+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://legendofcode.com/tags/development/</loc>
-    <lastmod>2019-06-14T00:51:49+08:00</lastmod>
+    <lastmod>2019-06-15T02:24:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://legendofcode.com/tags/hugo/</loc>
-    <lastmod>2019-06-14T00:51:49+08:00</lastmod>
+    <lastmod>2019-06-15T02:24:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://legendofcode.com/posts/writing-my-own-hugo-theme/</loc>
+    <loc>http://legendofcode.com/posts/003-hugo-theme-two/</loc>
+    <lastmod>2019-06-14T00:51:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/posts/002-writing-my-own-hugo-theme/</loc>
     <lastmod>2019-05-29T00:18:28+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://legendofcode.com/til/til/</loc>
+    <loc>http://legendofcode.com/til/001-til/</loc>
     <lastmod>2019-05-22T14:18:37+00:00</lastmod>
   </url>
   
@@ -60,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://legendofcode.com/posts/introduction/</loc>
+    <loc>http://legendofcode.com/posts/001-introduction/</loc>
     <lastmod>2019-05-16T01:27:55+09:00</lastmod>
   </url>
   
