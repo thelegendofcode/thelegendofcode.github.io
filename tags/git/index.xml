@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tils on Legend of Code</title>
-    <link>http://legendofcode.com/til/</link>
-    <description>Recent content in Tils on Legend of Code</description>
+    <title>git on Legend of Code</title>
+    <link>http://legendofcode.com/tags/git/</link>
+    <description>Recent content in git on Legend of Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
     <lastBuildDate>Wed, 26 Jun 2019 16:36:19 +0900</lastBuildDate>
     
-	<atom:link href="http://legendofcode.com/til/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://legendofcode.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <guid>http://legendofcode.com/til/002-push-single-commit/</guid>
       <description>Pushing a single commit out of a series of commits into a remote branch.
 # git &amp;lt;REMOTE_NAME&amp;gt; COMMIT_SHA1:REMOTE_BRANCH_NAME $ git origin 1q2w3e:branch-name  </description>
-    </item>
-    
-    <item>
-      <title>Thing I Learned</title>
-      <link>http://legendofcode.com/til/001-til/</link>
-      <pubDate>Wed, 22 May 2019 14:18:37 +0000</pubDate>
-      
-      <guid>http://legendofcode.com/til/001-til/</guid>
-      <description>A category for short memos of things I&amp;rsquo;ve learned.</description>
     </item>
     
   </channel>

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
-    <lastBuildDate>Wed, 22 May 2019 14:18:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 16:36:19 +0900</lastBuildDate>
     
 	<atom:link href="http://legendofcode.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Push Single Commit</title>
+      <link>http://legendofcode.com/til/002-push-single-commit/</link>
+      <pubDate>Wed, 26 Jun 2019 16:36:19 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/til/002-push-single-commit/</guid>
+      <description>Pushing a single commit out of a series of commits into a remote branch.
+# git &amp;lt;REMOTE_NAME&amp;gt; COMMIT_SHA1:REMOTE_BRANCH_NAME $ git origin 1q2w3e:branch-name  </description>
+    </item>
     
     <item>
       <title>Thing I Learned</title>
