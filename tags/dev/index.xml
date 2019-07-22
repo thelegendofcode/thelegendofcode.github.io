@@ -18,9 +18,7 @@
       <pubDate>Sun, 21 Jul 2019 13:09:06 +0900</pubDate>
       
       <guid>http://legendofcode.com/posts/006-postgresql/</guid>
-      <description>I have a habit of doing brew update every week. It&amp;rsquo;s a been a while since I&amp;rsquo;ve used PostgreSQL, last I remember it was version 9, now it&amp;rsquo;s 11 and I can&amp;rsquo;t connect to it because of some migration issues.
-psql: could not connect to server: No such file or directory
-Since I installed it using homebrew, the easy way to fix it is to use the included upgrade script.</description>
+      <description>A quick PostgreSQL refresher.</description>
     </item>
     
     <item>
@@ -29,10 +27,7 @@ Since I installed it using homebrew, the easy way to fix it is to use the includ
       <pubDate>Sun, 16 Jun 2019 23:20:12 +0900</pubDate>
       
       <guid>http://legendofcode.com/posts/005-planned-projects/</guid>
-      <description>Quick list of projects I&amp;rsquo;m planning/working on.
-Active Projects I&amp;rsquo;m actively working on.
-1. Legend of Code This very blog you&amp;rsquo;re looking at, if you even exist. Hi there!
-2. Budgeteer Something to plan budgets with, but not really. Maybe more of a networth visualiser. This is based on a patchwork of various code snippets and SQL scripts I&amp;rsquo;ve cobbled together over the years so I could check my current liquidity and put together a rough budget.</description>
+      <description>Quick list of projects I&amp;rsquo;m planning/working on.</description>
     </item>
     
     <item>

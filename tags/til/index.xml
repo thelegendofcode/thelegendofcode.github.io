@@ -18,9 +18,7 @@
       <pubDate>Mon, 22 Jul 2019 12:36:19 +0900</pubDate>
       
       <guid>http://legendofcode.com/til/003-shebang-node/</guid>
-      <description>#!/usr/bin/env node  #! (pronounced shebang) tells the system what interpreter to pass that file to for execution. When a file has the above line is included, the system (*nix) will use Node.js to execute the file. This only works because Node makes a special exception for shebang characters. This will not work in a browser.
-example file without .js extension
-// hello #!/usr/bin/env node console.log(&#39;hello node env&#39;);  $ chmod +x .</description>
+      <description>Launch a nodejs executable from the terminal</description>
     </item>
     
     <item>
@@ -29,8 +27,7 @@ example file without .js extension
       <pubDate>Wed, 26 Jun 2019 16:36:19 +0900</pubDate>
       
       <guid>http://legendofcode.com/til/002-push-single-commit/</guid>
-      <description>Pushing a single commit out of a series of commits into a remote branch.
-# git push &amp;lt;REMOTE_NAME&amp;gt; COMMIT_SHA1:REMOTE_BRANCH_NAME $ git push origin 1q2w3e:branch-name  </description>
+      <description>Pushing a single commit out of a series of commits into a remote branch.</description>
     </item>
     
     <item>

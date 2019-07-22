@@ -18,8 +18,7 @@
       <pubDate>Wed, 26 Jun 2019 16:36:19 +0900</pubDate>
       
       <guid>http://legendofcode.com/til/002-push-single-commit/</guid>
-      <description>Pushing a single commit out of a series of commits into a remote branch.
-# git push &amp;lt;REMOTE_NAME&amp;gt; COMMIT_SHA1:REMOTE_BRANCH_NAME $ git push origin 1q2w3e:branch-name  </description>
+      <description>Pushing a single commit out of a series of commits into a remote branch.</description>
     </item>
     
   </channel>
