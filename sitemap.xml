@@ -38,6 +38,23 @@
   </url>
   
   <url>
+    <loc>http://legendofcode.com/posts/006-postgresql/</loc>
+    <lastmod>2019-07-21T13:09:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/posts/</loc>
+    <lastmod>2019-07-21T13:09:06+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/dev/</loc>
+    <lastmod>2019-07-21T13:09:06+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://legendofcode.com/til/002-push-single-commit/</loc>
     <lastmod>2019-06-26T16:36:19+09:00</lastmod>
   </url>
@@ -51,18 +68,6 @@
   <url>
     <loc>http://legendofcode.com/posts/005-planned-projects/</loc>
     <lastmod>2019-06-16T23:20:12+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/posts/</loc>
-    <lastmod>2019-06-16T23:20:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/tags/dev/</loc>
-    <lastmod>2019-06-16T23:20:12+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

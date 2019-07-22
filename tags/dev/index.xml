@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
-    <lastBuildDate>Sun, 16 Jun 2019 23:20:12 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jul 2019 13:09:06 +0900</lastBuildDate>
     
 	<atom:link href="http://legendofcode.com/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>http://legendofcode.com/posts/006-postgresql/</link>
+      <pubDate>Sun, 21 Jul 2019 13:09:06 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/posts/006-postgresql/</guid>
+      <description>I have a habit of doing brew update every week. It&amp;rsquo;s a been a while since I&amp;rsquo;ve used PostgreSQL, last I remember it was version 9, now it&amp;rsquo;s 11 and I can&amp;rsquo;t connect to it because of some migration issues.
+psql: could not connect to server: No such file or directory
+Since I installed it using homebrew, the easy way to fix it is to use the included upgrade script.</description>
+    </item>
     
     <item>
       <title>Planned Projects</title>
