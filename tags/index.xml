@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
-    <lastBuildDate>Wed, 26 Jun 2019 16:36:19 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2019 12:36:19 +0900</lastBuildDate>
     
 	<atom:link href="http://legendofcode.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>node</title>
+      <link>http://legendofcode.com/tags/node/</link>
+      <pubDate>Mon, 22 Jul 2019 12:36:19 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/tags/node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>til</title>
+      <link>http://legendofcode.com/tags/til/</link>
+      <pubDate>Mon, 22 Jul 2019 12:36:19 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/tags/til/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>git</title>
@@ -18,15 +36,6 @@
       <pubDate>Wed, 26 Jun 2019 16:36:19 +0900</pubDate>
       
       <guid>http://legendofcode.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>til</title>
-      <link>http://legendofcode.com/tags/til/</link>
-      <pubDate>Wed, 26 Jun 2019 16:36:19 +0900</pubDate>
-      
-      <guid>http://legendofcode.com/tags/til/</guid>
       <description></description>
     </item>
     

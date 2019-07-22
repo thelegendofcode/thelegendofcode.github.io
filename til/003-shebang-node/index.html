@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>git | Legend of Code</title>
+<title>Shebang Node | Legend of Code</title>
 
 
 
@@ -55,49 +55,48 @@
 </section>
 <section class="section">
   <div class="container">
-    
-    
-    <article>
-      <div class="subtitle tags is-6 is-pulled-right">
-        
-        
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+      
 <a class="subtitle is-6" href="/tags/til">#til</a>
 
 
 
   
-  | <a class="subtitle is-6" href="/tags/git">#git</a>
+  | <a class="subtitle is-6" href="/tags/node">#node</a>
   
 
-        
-      </div>
-      <h2 class="subtitle is-6">June 26, 2019</h2>
-      <h1 class="title"><a href="http://legendofcode.com/til/002-push-single-commit/">Push Single Commit</a></h1>
-      <div class="content">
-        Pushing a single commit out of a series of commits into a remote branch.
-# git push &lt;REMOTE_NAME&gt; COMMIT_SHA1:REMOTE_BRANCH_NAME $ git push origin 1q2w3e:branch-name  
-        
-      </div>
-    </article>
+      
+    </div>
+    <h2 class="subtitle is-6">July 22, 2019</h2>
+    <h1 class="title">Shebang Node</h1>
+    
+    <div class="content">
+      <pre><code class="language-zsh">#!/usr/bin/env node
+</code></pre>
+
+<p><code>#!</code> (pronounced <em>shebang</em>) tells the system what interpreter to pass that file to for execution. When a file has the above line is included, the system (*nix) will use Node.js to execute the file. This only works because Node makes a special exception for shebang characters. This will not work in a browser.</p>
+
+<p>example file without .js extension</p>
+
+<pre><code class="language-js">// hello
+#!/usr/bin/env node
+
+console.log('hello node env');
+</code></pre>
+
+<pre><code class="language-zsh">$ chmod +x ./hello
+$ ./hello
+$ hello node env
+</code></pre>
+
+      
+    </div>
     
   </div>
 </section>
-<section class="section">
-  <div class="container">
-    <nav class="level is-mobile">
-      <div class="level-left">
-        <div class="level-item">
-          
-        </div>
-      </div>
-      <div class="level-right is-marginless">
-        <div class="level-item">
-          
-        </div>
-      </div>
-    </nav>
-  </div>
-</section>
+
+
 
 <section class="section">
   <div class="container has-text-centered">
@@ -110,5 +109,4 @@
 
 </body>
 </html>
-
 
