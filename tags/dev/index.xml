@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
-    <lastBuildDate>Sun, 21 Jul 2019 13:09:06 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2019 07:55:29 +0900</lastBuildDate>
     
 	<atom:link href="http://legendofcode.com/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Remove Git Submodule</title>
+      <link>http://legendofcode.com/posts/007-remove-git-submodule/</link>
+      <pubDate>Tue, 23 Jul 2019 07:55:29 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/posts/007-remove-git-submodule/</guid>
+      <description>Converting a submodule into a regular folder</description>
+    </item>
     
     <item>
       <title>PostgreSQL</title>

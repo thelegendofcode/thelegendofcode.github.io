@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>Tags | Legend of Code</title>
+<title>Remove Git Submodule | Legend of Code</title>
 
 
 
@@ -55,98 +55,40 @@
 </section>
 <section class="section">
   <div class="container">
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+      
+<a class="subtitle is-6" href="/tags/dev">#dev</a>
+
+
+
+  
+  | <a class="subtitle is-6" href="/tags/git">#git</a>
+  
+
+      
+    </div>
+    <h2 class="subtitle is-6">July 23, 2019</h2>
+    <h1 class="title">Remove Git Submodule</h1>
     
-    
-    <article>
-      <div class="subtitle tags is-6 is-pulled-right">
-        
-      </div>
-      <h2 class="subtitle is-6">July 23, 2019</h2>
-      <h1 class="title"><a href="http://legendofcode.com/tags/dev/">dev</a></h1>
-      <div class="content">
-        
-        
-      </div>
-    </article>
-    
-    <article>
-      <div class="subtitle tags is-6 is-pulled-right">
-        
-      </div>
-      <h2 class="subtitle is-6">July 23, 2019</h2>
-      <h1 class="title"><a href="http://legendofcode.com/tags/git/">git</a></h1>
-      <div class="content">
-        
-        
-      </div>
-    </article>
-    
-    <article>
-      <div class="subtitle tags is-6 is-pulled-right">
-        
-      </div>
-      <h2 class="subtitle is-6">July 22, 2019</h2>
-      <h1 class="title"><a href="http://legendofcode.com/tags/node/">node</a></h1>
-      <div class="content">
-        
-        
-      </div>
-    </article>
-    
-    <article>
-      <div class="subtitle tags is-6 is-pulled-right">
-        
-      </div>
-      <h2 class="subtitle is-6">July 22, 2019</h2>
-      <h1 class="title"><a href="http://legendofcode.com/tags/til/">til</a></h1>
-      <div class="content">
-        
-        
-      </div>
-    </article>
-    
-    <article>
-      <div class="subtitle tags is-6 is-pulled-right">
-        
-      </div>
-      <h2 class="subtitle is-6">June 15, 2019</h2>
-      <h1 class="title"><a href="http://legendofcode.com/tags/hugo/">hugo</a></h1>
-      <div class="content">
-        
-        
-      </div>
-    </article>
-    
-    <article>
-      <div class="subtitle tags is-6 is-pulled-right">
-        
-      </div>
-      <h2 class="subtitle is-6">May 16, 2019</h2>
-      <h1 class="title"><a href="http://legendofcode.com/tags/stream-of-consciousness/">stream of consciousness</a></h1>
-      <div class="content">
-        
-        
-      </div>
-    </article>
+    <div class="content">
+      <p>Had problems deploying a <a href="https://gohugo.io">Hugo</a> site to <a href="https://www.netlify.com">Netlify</a> because of problems with the theme submodule. Found it easier to simply remove it.</p>
+
+<pre><code class="language-zsh">THEME_PATH = &quot;theme/theme_name&quot;
+git rm --cached $THEME_PATH
+git rm .gitmodules
+rm -rf $THEME_PATH
+git add $THEME_PATH
+git commit -m &quot;removed theme submodule&quot;
+</code></pre>
+
+      
+    </div>
     
   </div>
 </section>
-<section class="section">
-  <div class="container">
-    <nav class="level is-mobile">
-      <div class="level-left">
-        <div class="level-item">
-          
-        </div>
-      </div>
-      <div class="level-right is-marginless">
-        <div class="level-item">
-          
-        </div>
-      </div>
-    </nav>
-  </div>
-</section>
+
+
 
 <section class="section">
   <div class="container has-text-centered">
@@ -159,5 +101,4 @@
 
 </body>
 </html>
-
 
