@@ -3,32 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://legendofcode.com/posts/008-create-hugo-theme-pt-1/</loc>
+    <lastmod>2019-07-26T00:50:14+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://legendofcode.com/</loc>
-    <lastmod>2019-07-23T07:55:29+09:00</lastmod>
+    <lastmod>2019-07-26T00:50:14+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://legendofcode.com/posts/</loc>
-    <lastmod>2019-07-23T07:55:29+09:00</lastmod>
+    <lastmod>2019-07-26T00:50:14+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/</loc>
+    <lastmod>2019-07-26T00:50:14+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/dev/</loc>
+    <lastmod>2019-07-26T00:50:14+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/hugo/</loc>
+    <lastmod>2019-07-26T00:50:14+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://legendofcode.com/posts/007-remove-git-submodule/</loc>
     <lastmod>2019-07-23T07:55:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/tags/</loc>
-    <lastmod>2019-07-23T07:55:29+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/tags/dev/</loc>
-    <lastmod>2019-07-23T07:55:29+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -78,12 +89,6 @@
   <url>
     <loc>http://legendofcode.com/posts/004-theme-design-dos-and-do-nots/</loc>
     <lastmod>2019-06-15T02:24:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/tags/hugo/</loc>
-    <lastmod>2019-06-15T02:24:52+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

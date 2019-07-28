@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Creating a Hugo theme from scratch, part 1</title>
+      <link>http://legendofcode.com/posts/008-create-hugo-theme-pt-1/</link>
+      <pubDate>Fri, 26 Jul 2019 00:50:14 +0900</pubDate>
+      <author></author>
+      <guid>http://legendofcode.com/posts/008-create-hugo-theme-pt-1/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Remove Git Submodule</title>
       <link>http://legendofcode.com/posts/007-remove-git-submodule/</link>
       <pubDate>Tue, 23 Jul 2019 07:55:29 +0900</pubDate>
