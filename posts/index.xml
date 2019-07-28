@@ -18,7 +18,7 @@
       <pubDate>Fri, 26 Jul 2019 00:50:14 +0900</pubDate>
       
       <guid>http://legendofcode.com/posts/008-create-hugo-theme-pt-1/</guid>
-      <description>The Official Hugo docs are a little wanting when it comes to creating a theme from scratch.</description>
+      <description>There seems to be very little info out there about how to actually build a Hugo theme, not even in the official docs. So here&amp;rsquo;s my attempt.</description>
     </item>
     
     <item>
