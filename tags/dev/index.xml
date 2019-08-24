@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
-    <lastBuildDate>Fri, 26 Jul 2019 00:50:14 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2019 06:46:16 +0900</lastBuildDate>
     
 	<atom:link href="http://legendofcode.com/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Create Hugo Theme Pt 2: Modularisation</title>
+      <link>http://legendofcode.com/posts/009-create-hugo-theme-pt-2/</link>
+      <pubDate>Sun, 25 Aug 2019 06:46:16 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/posts/009-create-hugo-theme-pt-2/</guid>
+      <description>This part will deal with splitting templates up into smaller, re-usable modules.</description>
+    </item>
     
     <item>
       <title>Creating a Hugo theme from scratch, part 1</title>
@@ -19,6 +28,15 @@
       
       <guid>http://legendofcode.com/posts/008-create-hugo-theme-pt-1/</guid>
       <description>There seems to be very little info out there about how to actually build a Hugo theme, not even in the official docs. So here&amp;rsquo;s my attempt.</description>
+    </item>
+    
+    <item>
+      <title>000 Trello or Github Projects</title>
+      <link></link>
+      <pubDate>Tue, 23 Jul 2019 08:44:01 +0900</pubDate>
+      
+      <guid></guid>
+      <description></description>
     </item>
     
     <item>
@@ -37,6 +55,24 @@
       
       <guid>http://legendofcode.com/posts/006-postgresql/</guid>
       <description>A quick PostgreSQL refresher.</description>
+    </item>
+    
+    <item>
+      <title>Project Backlog</title>
+      <link></link>
+      <pubDate>Sat, 13 Jul 2019 04:32:31 +0900</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technical Director</title>
+      <link></link>
+      <pubDate>Mon, 17 Jun 2019 14:43:13 +0800</pubDate>
+      
+      <guid></guid>
+      <description></description>
     </item>
     
     <item>

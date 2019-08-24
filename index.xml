@@ -12,111 +12,21 @@
     
     
     <item>
-      <title>Creating a Hugo theme from scratch, part 1</title>
-      <link>http://legendofcode.com/posts/008-create-hugo-theme-pt-1/</link>
-      <pubDate>Fri, 26 Jul 2019 00:50:14 +0900</pubDate>
+      <title>Posts</title>
+      <link>http://legendofcode.com/posts/</link>
+      <pubDate>Sun, 25 Aug 2019 06:46:16 +0900</pubDate>
       <author></author>
-      <guid>http://legendofcode.com/posts/008-create-hugo-theme-pt-1/</guid>
+      <guid>http://legendofcode.com/posts/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Remove Git Submodule</title>
-      <link>http://legendofcode.com/posts/007-remove-git-submodule/</link>
-      <pubDate>Tue, 23 Jul 2019 07:55:29 +0900</pubDate>
-      <author></author>
-      <guid>http://legendofcode.com/posts/007-remove-git-submodule/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Shebang Node</title>
-      <link>http://legendofcode.com/til/003-shebang-node/</link>
+      <title>Tils</title>
+      <link>http://legendofcode.com/til/</link>
       <pubDate>Mon, 22 Jul 2019 12:36:19 +0900</pubDate>
       <author></author>
-      <guid>http://legendofcode.com/til/003-shebang-node/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>PostgreSQL</title>
-      <link>http://legendofcode.com/posts/006-postgresql/</link>
-      <pubDate>Sun, 21 Jul 2019 13:09:06 +0900</pubDate>
-      <author></author>
-      <guid>http://legendofcode.com/posts/006-postgresql/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Push Single Commit</title>
-      <link>http://legendofcode.com/til/002-push-single-commit/</link>
-      <pubDate>Wed, 26 Jun 2019 16:36:19 +0900</pubDate>
-      <author></author>
-      <guid>http://legendofcode.com/til/002-push-single-commit/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Planned Projects</title>
-      <link>http://legendofcode.com/posts/005-planned-projects/</link>
-      <pubDate>Sun, 16 Jun 2019 23:20:12 +0900</pubDate>
-      <author></author>
-      <guid>http://legendofcode.com/posts/005-planned-projects/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Theme Design Dos And Do-Nots</title>
-      <link>http://legendofcode.com/posts/004-theme-design-dos-and-do-nots/</link>
-      <pubDate>Sat, 15 Jun 2019 02:24:52 +0900</pubDate>
-      <author></author>
-      <guid>http://legendofcode.com/posts/004-theme-design-dos-and-do-nots/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Hugo Theme Two</title>
-      <link>http://legendofcode.com/posts/003-hugo-theme-two/</link>
-      <pubDate>Fri, 14 Jun 2019 00:51:49 +0800</pubDate>
-      <author></author>
-      <guid>http://legendofcode.com/posts/003-hugo-theme-two/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Writing my own Hugo theme</title>
-      <link>http://legendofcode.com/posts/002-writing-my-own-hugo-theme/</link>
-      <pubDate>Wed, 29 May 2019 00:18:28 +0900</pubDate>
-      <author></author>
-      <guid>http://legendofcode.com/posts/002-writing-my-own-hugo-theme/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Thing I Learned</title>
-      <link>http://legendofcode.com/til/001-til/</link>
-      <pubDate>Wed, 22 May 2019 14:18:37 +0000</pubDate>
-      <author></author>
-      <guid>http://legendofcode.com/til/001-til/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Introduction</title>
-      <link>http://legendofcode.com/posts/001-introduction/</link>
-      <pubDate>Thu, 16 May 2019 01:27:55 +0900</pubDate>
-      <author></author>
-      <guid>http://legendofcode.com/posts/001-introduction/</guid>
+      <guid>http://legendofcode.com/til/</guid>
       <description></description>
       
     </item>
