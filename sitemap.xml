@@ -33,6 +33,41 @@
   </url>
   
   <url>
+    <loc>http://legendofcode.com/post/</loc>
+    <lastmod>2019-08-03T01:29:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/post/single-three/</loc>
+    <lastmod>2019-08-03T01:29:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/tagone/</loc>
+    <lastmod>2019-08-03T01:29:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/tagthree/</loc>
+    <lastmod>2019-08-03T01:29:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/tagtwo/</loc>
+    <lastmod>2019-08-03T01:29:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/post/single-two/</loc>
+    <lastmod>2019-08-01T01:29:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/post/single-one/</loc>
+    <lastmod>2019-07-31T01:29:01+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://legendofcode.com/posts/008-create-hugo-theme-pt-1/</loc>
     <lastmod>2019-07-26T00:50:14+09:00</lastmod>
   </url>

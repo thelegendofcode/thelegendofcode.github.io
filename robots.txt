@@ -1,3 +1,1 @@
 User-agent: *
-
-Sitemap: http://legendofcode.com//sitemap.xml
