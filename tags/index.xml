@@ -31,42 +31,6 @@
     </item>
     
     <item>
-      <title>tagOne</title>
-      <link>http://legendofcode.com/tags/tagone/</link>
-      <pubDate>Sat, 03 Aug 2019 01:29:01 +0900</pubDate>
-      
-      <guid>http://legendofcode.com/tags/tagone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tagThree</title>
-      <link>http://legendofcode.com/tags/tagthree/</link>
-      <pubDate>Sat, 03 Aug 2019 01:29:01 +0900</pubDate>
-      
-      <guid>http://legendofcode.com/tags/tagthree/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tagTwo</title>
-      <link>http://legendofcode.com/tags/tagtwo/</link>
-      <pubDate>Sat, 03 Aug 2019 01:29:01 +0900</pubDate>
-      
-      <guid>http://legendofcode.com/tags/tagtwo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stream of consciousness</title>
-      <link>http://legendofcode.com/tags/stream-of-consciousness/</link>
-      <pubDate>Tue, 23 Jul 2019 08:44:01 +0900</pubDate>
-      
-      <guid>http://legendofcode.com/tags/stream-of-consciousness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>git</title>
       <link>http://legendofcode.com/tags/git/</link>
       <pubDate>Tue, 23 Jul 2019 07:55:29 +0900</pubDate>
@@ -90,6 +54,15 @@
       <pubDate>Mon, 22 Jul 2019 12:36:19 +0900</pubDate>
       
       <guid>http://legendofcode.com/tags/til/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stream of consciousness</title>
+      <link>http://legendofcode.com/tags/stream-of-consciousness/</link>
+      <pubDate>Thu, 16 May 2019 01:27:55 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/tags/stream-of-consciousness/</guid>
       <description></description>
     </item>
     

@@ -22,33 +22,6 @@
     </item>
     
     <item>
-      <title>Single Three</title>
-      <link>http://legendofcode.com/post/single-three/</link>
-      <pubDate>Sat, 03 Aug 2019 01:29:01 +0900</pubDate>
-      
-      <guid>http://legendofcode.com/post/single-three/</guid>
-      <description>mock file so hugo will generate single.html</description>
-    </item>
-    
-    <item>
-      <title>Single Two</title>
-      <link>http://legendofcode.com/post/single-two/</link>
-      <pubDate>Thu, 01 Aug 2019 01:29:01 +0900</pubDate>
-      
-      <guid>http://legendofcode.com/post/single-two/</guid>
-      <description>mock file so hugo will generate single.html</description>
-    </item>
-    
-    <item>
-      <title>Single One</title>
-      <link>http://legendofcode.com/post/single-one/</link>
-      <pubDate>Wed, 31 Jul 2019 01:29:01 +0900</pubDate>
-      
-      <guid>http://legendofcode.com/post/single-one/</guid>
-      <description>mock file so hugo will generate single.html</description>
-    </item>
-    
-    <item>
       <title>Creating a Hugo theme from scratch, part 1</title>
       <link>http://legendofcode.com/posts/008-create-hugo-theme-pt-1/</link>
       <pubDate>Fri, 26 Jul 2019 00:50:14 +0900</pubDate>
