@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://legendofcode.com/posts/009-create-hugo-theme-pt-2/</loc>
-    <lastmod>2019-08-25T06:46:16+09:00</lastmod>
+    <loc>http://legendofcode.com/tags/dev/</loc>
+    <lastmod>2019-08-28T00:09:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://legendofcode.com/tags/dev/</loc>
+    <loc>http://legendofcode.com/tags/git/</loc>
+    <lastmod>2019-08-28T00:09:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/til/004-delete-git-tag/</loc>
+    <lastmod>2019-08-28T00:09:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/</loc>
+    <lastmod>2019-08-28T00:09:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/</loc>
+    <lastmod>2019-08-28T00:09:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/til/</loc>
+    <lastmod>2019-08-28T00:09:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/posts/009-create-hugo-theme-pt-2/</loc>
     <lastmod>2019-08-25T06:46:16+09:00</lastmod>
   </url>
   
@@ -18,28 +43,13 @@
   </url>
   
   <url>
-    <loc>http://legendofcode.com/</loc>
-    <lastmod>2019-08-25T06:46:16+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://legendofcode.com/posts/</loc>
-    <lastmod>2019-08-25T06:46:16+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/tags/</loc>
     <lastmod>2019-08-25T06:46:16+09:00</lastmod>
   </url>
   
   <url>
     <loc>http://legendofcode.com/posts/008-create-hugo-theme-pt-1/</loc>
     <lastmod>2019-07-26T00:50:14+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/tags/git/</loc>
-    <lastmod>2019-07-23T07:55:29+09:00</lastmod>
   </url>
   
   <url>
@@ -59,11 +69,6 @@
   
   <url>
     <loc>http://legendofcode.com/tags/til/</loc>
-    <lastmod>2019-07-22T12:36:19+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/til/</loc>
     <lastmod>2019-07-22T12:36:19+09:00</lastmod>
   </url>
   

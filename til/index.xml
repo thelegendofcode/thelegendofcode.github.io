@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/thelegendofcode&#34;&gt;Sen Heng&lt;/a&gt; 2019</copyright>
-    <lastBuildDate>Mon, 22 Jul 2019 12:36:19 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2019 00:09:00 +0900</lastBuildDate>
     
 	<atom:link href="http://legendofcode.com/til/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to delete a git tag</title>
+      <link>http://legendofcode.com/til/004-delete-git-tag/</link>
+      <pubDate>Wed, 28 Aug 2019 00:09:00 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/til/004-delete-git-tag/</guid>
+      <description>Delete remote tags
+$ git push origin :tag_name # or to be more precise git push --delete origin tag_name # or if there&#39;s a branch with the same name git push --delete origin :refs/tag/tag_name  Delete local tags
+git tag --delete tag_name  Source: https://stackoverflow.com/a/5480292</description>
+    </item>
     
     <item>
       <title>Shebang Node</title>
