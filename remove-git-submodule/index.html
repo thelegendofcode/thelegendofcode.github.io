@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Push Single Commit</title>
+  <title>Remove Git Submodule</title>
 </head>
 
 <body>
   
 
 <h1 class="ArticleTitle">
-  Push Single Commit
+  Remove Git Submodule
 </h1>
 
-<p class="ArticleDate">2019 - 06 - 26</p>
+<p class="ArticleDate">2019 - 07 - 23</p>
 
 <div class="ArticleTags">
   
@@ -22,8 +22,8 @@
     
 
     
-      <a href="http://legendofcode.com/tags/til">
-        <span class="ArticleTag">til</span>
+      <a href="http://legendofcode.com/tags/dev">
+        <span class="ArticleTag">dev</span>
       </a> 
       
         |
@@ -39,10 +39,14 @@
 
 
 <main class="Article">
-  <p>Pushing a single commit out of a series of commits into a remote branch.</p>
+  <p>Had problems deploying a <a href="https://gohugo.io">Hugo</a> site to <a href="https://www.netlify.com">Netlify</a> because of problems with the theme submodule. Found it easier to simply remove it.</p>
 
-<pre><code class="language-zsh"># git push &lt;REMOTE_NAME&gt; COMMIT_SHA1:REMOTE_BRANCH_NAME
-$ git push origin 1q2w3e:branch-name
+<pre><code class="language-zsh">THEME_PATH = &quot;theme/theme_name&quot;
+git rm --cached $THEME_PATH
+git rm .gitmodules
+rm -rf $THEME_PATH
+git add $THEME_PATH
+git commit -m &quot;removed theme submodule&quot;
 </code></pre>
 
 </main>
@@ -51,7 +55,7 @@ $ git push origin 1q2w3e:branch-name
   <section class="PreviousArticle">
     
       <span class="PagerLabel">Previous</span>
-      <a href="http://legendofcode.com/til/001-til/" class="ArticleTitle">Thing I Learned</a>
+      <a href="http://legendofcode.com/postgresql/" class="ArticleTitle">PostgreSQL</a>
     
   </section>
   <section class="PreviousArticle">
@@ -60,7 +64,7 @@ $ git push origin 1q2w3e:branch-name
   <section class="PreviousArticle">
     
       <span class="PagerLabel">Next</span>
-      <a href="http://legendofcode.com/til/003-shebang-node/" class="ArticleTitle">Shebang Node</a>
+      <a href="http://legendofcode.com/creating-a-hugo-theme-from-scratch-part-1/" class="ArticleTitle">Creating a Hugo theme from scratch, part 1</a>
     
   </section>
 </section>

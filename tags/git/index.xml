@@ -25,10 +25,10 @@ git tag --delete tag_name  Source: https://stackoverflow.com/a/5480292</descript
     
     <item>
       <title>Remove Git Submodule</title>
-      <link>http://legendofcode.com/posts/007-remove-git-submodule/</link>
+      <link>http://legendofcode.com/remove-git-submodule/</link>
       <pubDate>Tue, 23 Jul 2019 07:55:29 +0900</pubDate>
       
-      <guid>http://legendofcode.com/posts/007-remove-git-submodule/</guid>
+      <guid>http://legendofcode.com/remove-git-submodule/</guid>
       <description>Converting a submodule into a regular folder</description>
     </item>
     

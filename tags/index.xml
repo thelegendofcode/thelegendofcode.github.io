@@ -13,15 +13,6 @@
     
     
     <item>
-      <title>dev</title>
-      <link>http://legendofcode.com/tags/dev/</link>
-      <pubDate>Wed, 28 Aug 2019 00:09:00 +0900</pubDate>
-      
-      <guid>http://legendofcode.com/tags/dev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>git</title>
       <link>http://legendofcode.com/tags/git/</link>
       <pubDate>Wed, 28 Aug 2019 00:09:00 +0900</pubDate>
@@ -31,9 +22,27 @@
     </item>
     
     <item>
+      <title>til</title>
+      <link>http://legendofcode.com/tags/til/</link>
+      <pubDate>Wed, 28 Aug 2019 00:09:00 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/tags/til/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dev</title>
+      <link>http://legendofcode.com/tags/dev/</link>
+      <pubDate>Tue, 27 Aug 2019 00:42:14 +0900</pubDate>
+      
+      <guid>http://legendofcode.com/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>hugo</title>
       <link>http://legendofcode.com/tags/hugo/</link>
-      <pubDate>Sun, 25 Aug 2019 06:46:16 +0900</pubDate>
+      <pubDate>Tue, 27 Aug 2019 00:42:14 +0900</pubDate>
       
       <guid>http://legendofcode.com/tags/hugo/</guid>
       <description></description>
@@ -45,15 +54,6 @@
       <pubDate>Mon, 22 Jul 2019 12:36:19 +0900</pubDate>
       
       <guid>http://legendofcode.com/tags/node/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>til</title>
-      <link>http://legendofcode.com/tags/til/</link>
-      <pubDate>Mon, 22 Jul 2019 12:36:19 +0900</pubDate>
-      
-      <guid>http://legendofcode.com/tags/til/</guid>
       <description></description>
     </item>
     
