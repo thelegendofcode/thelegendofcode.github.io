@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shebang Node</title>
+</head>
+
+<body>
+  
+
+<h1 class="ArticleTitle">
+  Shebang Node
+</h1>
+
+<p class="ArticleDate">2019 - 07 - 22</p>
+
+<div class="ArticleTags">
+  
+    
+    
+
+    
+      <a href="http://legendofcode.com/tags/til">
+        <span class="ArticleTag">til</span>
+      </a> 
+      
+        |
+      
+    
+      <a href="http://legendofcode.com/tags/node">
+        <span class="ArticleTag">node</span>
+      </a> 
+      
+    
+  
+</div>
+
+
+<main class="Article">
+  <pre><code class="language-zsh">#!/usr/bin/env node
+</code></pre>
+
+<p><code>#!</code> (pronounced <em>shebang</em>) tells the system what interpreter to pass that file to for execution. When a file has the above line is included, the system (*nix) will use Node.js to execute the file. This only works because Node makes a special exception for shebang characters. This will not work in a browser.</p>
+
+<p>example file without .js extension</p>
+
+<pre><code class="language-js">// hello
+#!/usr/bin/env node
+
+console.log('hello node env');
+</code></pre>
+
+<pre><code class="language-zsh">$ chmod +x ./hello
+$ ./hello
+$ hello node env
+</code></pre>
+
+</main>
+
+<section class="ArticlePager">
+  <section class="PreviousArticle">
+    
+      <span class="PagerLabel">Previous</span>
+      <a href="http://legendofcode.com/push-single-commit/" class="ArticleTitle">Push Single Commit</a>
+    
+  </section>
+  <section class="PreviousArticle">
+    <a href="/" class="ArticleTitle">Home</a>
+  </section>
+  <section class="PreviousArticle">
+    
+      <span class="PagerLabel">Next</span>
+      <a href="http://legendofcode.com/how-to-delete-a-git-tag/" class="ArticleTitle">How to delete a git tag</a>
+    
+  </section>
+</section>
+
+<footer class="Footer">
+  <p>copyright</p>
+</footer>
+
+
+</body>
+</html>

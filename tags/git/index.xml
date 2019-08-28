@@ -14,10 +14,10 @@
     
     <item>
       <title>How to delete a git tag</title>
-      <link>http://legendofcode.com/til/004-delete-git-tag/</link>
+      <link>http://legendofcode.com/how-to-delete-a-git-tag/</link>
       <pubDate>Wed, 28 Aug 2019 00:09:00 +0900</pubDate>
       
-      <guid>http://legendofcode.com/til/004-delete-git-tag/</guid>
+      <guid>http://legendofcode.com/how-to-delete-a-git-tag/</guid>
       <description>Delete remote tags
 $ git push origin :tag_name # or to be more precise git push --delete origin tag_name # or if there&#39;s a branch with the same name git push --delete origin :refs/tag/tag_name  Delete local tags
 git tag --delete tag_name  Source: https://stackoverflow.com/a/5480292</description>
@@ -34,10 +34,10 @@ git tag --delete tag_name  Source: https://stackoverflow.com/a/5480292</descript
     
     <item>
       <title>Push Single Commit</title>
-      <link>http://legendofcode.com/til/002-push-single-commit/</link>
+      <link>http://legendofcode.com/push-single-commit/</link>
       <pubDate>Wed, 26 Jun 2019 16:36:19 +0900</pubDate>
       
-      <guid>http://legendofcode.com/til/002-push-single-commit/</guid>
+      <guid>http://legendofcode.com/push-single-commit/</guid>
       <description>Pushing a single commit out of a series of commits into a remote branch.</description>
     </item>
     
