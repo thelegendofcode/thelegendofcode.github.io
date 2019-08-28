@@ -14,10 +14,10 @@
     
     <item>
       <title>How to delete a git tag</title>
-      <link>http://legendofcode.com/how-to-delete-a-git-tag/</link>
+      <link>http://legendofcode.com/til/how-to-delete-a-git-tag/</link>
       <pubDate>Wed, 28 Aug 2019 00:09:00 +0900</pubDate>
       
-      <guid>http://legendofcode.com/how-to-delete-a-git-tag/</guid>
+      <guid>http://legendofcode.com/til/how-to-delete-a-git-tag/</guid>
       <description>Delete remote tags
 $ git push origin :tag_name # or to be more precise git push --delete origin tag_name # or if there&#39;s a branch with the same name git push --delete origin :refs/tag/tag_name  Delete local tags
 git tag --delete tag_name  Source: https://stackoverflow.com/a/5480292</description>
@@ -25,118 +25,118 @@ git tag --delete tag_name  Source: https://stackoverflow.com/a/5480292</descript
     
     <item>
       <title>Create Hugo Theme Pt 3: Page Variables</title>
-      <link>http://legendofcode.com/create-hugo-theme-pt-3-page-variables/</link>
+      <link>http://legendofcode.com/posts/create-hugo-theme-pt-3-page-variables/</link>
       <pubDate>Tue, 27 Aug 2019 00:42:14 +0900</pubDate>
       
-      <guid>http://legendofcode.com/create-hugo-theme-pt-3-page-variables/</guid>
+      <guid>http://legendofcode.com/posts/create-hugo-theme-pt-3-page-variables/</guid>
       <description>In today&amp;rsquo;s episode, we learn how to generate a single page template using Page Variables.</description>
     </item>
     
     <item>
       <title>Create Hugo Theme Pt 2: Modularisation</title>
-      <link>http://legendofcode.com/create-hugo-theme-pt-2-modularisation/</link>
+      <link>http://legendofcode.com/posts/create-hugo-theme-pt-2-modularisation/</link>
       <pubDate>Sun, 25 Aug 2019 06:46:16 +0900</pubDate>
       
-      <guid>http://legendofcode.com/create-hugo-theme-pt-2-modularisation/</guid>
+      <guid>http://legendofcode.com/posts/create-hugo-theme-pt-2-modularisation/</guid>
       <description>This part will deal with splitting templates up into smaller, re-usable modules.</description>
     </item>
     
     <item>
       <title>Creating a Hugo theme from scratch, part 1</title>
-      <link>http://legendofcode.com/creating-a-hugo-theme-from-scratch-part-1/</link>
+      <link>http://legendofcode.com/posts/creating-a-hugo-theme-from-scratch-part-1/</link>
       <pubDate>Fri, 26 Jul 2019 00:50:14 +0900</pubDate>
       
-      <guid>http://legendofcode.com/creating-a-hugo-theme-from-scratch-part-1/</guid>
+      <guid>http://legendofcode.com/posts/creating-a-hugo-theme-from-scratch-part-1/</guid>
       <description>There seems to be very little info out there about how to actually build a Hugo theme, not even in the official docs. So here&amp;rsquo;s my attempt.</description>
     </item>
     
     <item>
       <title>Remove Git Submodule</title>
-      <link>http://legendofcode.com/remove-git-submodule/</link>
+      <link>http://legendofcode.com/posts/remove-git-submodule/</link>
       <pubDate>Tue, 23 Jul 2019 07:55:29 +0900</pubDate>
       
-      <guid>http://legendofcode.com/remove-git-submodule/</guid>
+      <guid>http://legendofcode.com/posts/remove-git-submodule/</guid>
       <description>Converting a submodule into a regular folder</description>
     </item>
     
     <item>
       <title>Shebang Node</title>
-      <link>http://legendofcode.com/shebang-node/</link>
+      <link>http://legendofcode.com/til/shebang-node/</link>
       <pubDate>Mon, 22 Jul 2019 12:36:19 +0900</pubDate>
       
-      <guid>http://legendofcode.com/shebang-node/</guid>
+      <guid>http://legendofcode.com/til/shebang-node/</guid>
       <description>Launch a nodejs executable from the terminal</description>
     </item>
     
     <item>
       <title>PostgreSQL</title>
-      <link>http://legendofcode.com/postgresql/</link>
+      <link>http://legendofcode.com/posts/postgresql/</link>
       <pubDate>Sun, 21 Jul 2019 13:09:06 +0900</pubDate>
       
-      <guid>http://legendofcode.com/postgresql/</guid>
+      <guid>http://legendofcode.com/posts/postgresql/</guid>
       <description>A quick PostgreSQL refresher.</description>
     </item>
     
     <item>
       <title>Push Single Commit</title>
-      <link>http://legendofcode.com/push-single-commit/</link>
+      <link>http://legendofcode.com/til/push-single-commit/</link>
       <pubDate>Wed, 26 Jun 2019 16:36:19 +0900</pubDate>
       
-      <guid>http://legendofcode.com/push-single-commit/</guid>
+      <guid>http://legendofcode.com/til/push-single-commit/</guid>
       <description>Pushing a single commit out of a series of commits into a remote branch.</description>
     </item>
     
     <item>
       <title>Planned Projects</title>
-      <link>http://legendofcode.com/planned-projects/</link>
+      <link>http://legendofcode.com/posts/planned-projects/</link>
       <pubDate>Sun, 16 Jun 2019 23:20:12 +0900</pubDate>
       
-      <guid>http://legendofcode.com/planned-projects/</guid>
+      <guid>http://legendofcode.com/posts/planned-projects/</guid>
       <description>Quick list of projects I&amp;rsquo;m planning/working on.</description>
     </item>
     
     <item>
       <title>Theme Design Dos And Do-Nots</title>
-      <link>http://legendofcode.com/theme-design-dos-and-do-nots/</link>
+      <link>http://legendofcode.com/posts/theme-design-dos-and-do-nots/</link>
       <pubDate>Sat, 15 Jun 2019 02:24:52 +0900</pubDate>
       
-      <guid>http://legendofcode.com/theme-design-dos-and-do-nots/</guid>
+      <guid>http://legendofcode.com/posts/theme-design-dos-and-do-nots/</guid>
       <description>When gathering requirements, it&amp;rsquo;s often just as helpful to define what are the things you &lt;em&gt;shouldn&amp;rsquo;t&lt;/em&gt; do as much as the things you should do.</description>
     </item>
     
     <item>
       <title>Hugo Theme Two</title>
-      <link>http://legendofcode.com/hugo-theme-two/</link>
+      <link>http://legendofcode.com/posts/hugo-theme-two/</link>
       <pubDate>Fri, 14 Jun 2019 00:51:49 +0800</pubDate>
       
-      <guid>http://legendofcode.com/hugo-theme-two/</guid>
+      <guid>http://legendofcode.com/posts/hugo-theme-two/</guid>
       <description>There doesn&amp;rsquo;t seem to be a lot of info out there about creating a theme in Hugo so I&amp;rsquo;ve been reading the docs to figure out how the various functions and variables work. So here&amp;rsquo;s a list of things I figured out while on a plane flying eight hours to attend my cousin&amp;rsquo;s wedding.</description>
     </item>
     
     <item>
       <title>Writing my own Hugo theme</title>
-      <link>http://legendofcode.com/writing-my-own-hugo-theme/</link>
+      <link>http://legendofcode.com/posts/writing-my-own-hugo-theme/</link>
       <pubDate>Wed, 29 May 2019 00:18:28 +0900</pubDate>
       
-      <guid>http://legendofcode.com/writing-my-own-hugo-theme/</guid>
+      <guid>http://legendofcode.com/posts/writing-my-own-hugo-theme/</guid>
       <description>There&amp;rsquo;re billions upon billions of very well made themes for Hugo out there, so it&amp;rsquo;s a huge waste of my time to even attempt writing my own.</description>
     </item>
     
     <item>
       <title>Thing I Learned</title>
-      <link>http://legendofcode.com/thing-i-learned/</link>
+      <link>http://legendofcode.com/til/thing-i-learned/</link>
       <pubDate>Wed, 22 May 2019 14:18:37 +0000</pubDate>
       
-      <guid>http://legendofcode.com/thing-i-learned/</guid>
+      <guid>http://legendofcode.com/til/thing-i-learned/</guid>
       <description>A category for short memos of things I&amp;rsquo;ve learned.</description>
     </item>
     
     <item>
       <title>Introduction</title>
-      <link>http://legendofcode.com/introduction/</link>
+      <link>http://legendofcode.com/posts/introduction/</link>
       <pubDate>Thu, 16 May 2019 01:27:55 +0900</pubDate>
       
-      <guid>http://legendofcode.com/introduction/</guid>
+      <guid>http://legendofcode.com/posts/introduction/</guid>
       <description>I have been trying to write this intro for the past month now but I haven&amp;rsquo;t been able to write anything satisfactory, so this is pure stream of consciousness.</description>
     </item>
     

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>How to delete a git tag</title>
+</head>
+
+<body>
+  
+
+<h1 class="ArticleTitle">
+  How to delete a git tag
+</h1>
+
+<p class="ArticleDate">2019 - 08 - 28</p>
+
+<div class="ArticleTags">
+  
+    
+    
+
+    
+      <a href="http://legendofcode.com/tags/til">
+        <span class="ArticleTag">til</span>
+      </a> 
+      
+        |
+      
+    
+      <a href="http://legendofcode.com/tags/git">
+        <span class="ArticleTag">git</span>
+      </a> 
+      
+    
+  
+</div>
+
+
+<main class="Article">
+  <p>Delete remote tags</p>
+
+<pre><code class="language-zsh">$ git push origin :tag_name
+
+# or to be more precise
+
+git push --delete origin tag_name
+
+# or if there's a branch with the same name
+
+git push --delete origin :refs/tag/tag_name
+</code></pre>
+
+<p>Delete local tags</p>
+
+<pre><code class="language-zsh">git tag --delete tag_name
+</code></pre>
+
+<p>Source: <a href="https://stackoverflow.com/a/5480292">https://stackoverflow.com/a/5480292</a></p>
+
+</main>
+
+<section class="ArticlePager">
+  <section class="PreviousArticle">
+    
+      <span class="PagerLabel">Previous</span>
+      <a href="http://legendofcode.com/til/shebang-node/" class="ArticleTitle">Shebang Node</a>
+    
+  </section>
+  <section class="PreviousArticle">
+    <a href="/" class="ArticleTitle">Home</a>
+  </section>
+  <section class="PreviousArticle">
+    
+  </section>
+</section>
+
+<footer class="Footer">
+  <p>copyright</p>
+</footer>
+
+
+</body>
+</html>

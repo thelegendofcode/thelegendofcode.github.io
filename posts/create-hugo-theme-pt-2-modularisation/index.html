@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Create Hugo Theme Pt 2: Modularisation</title>
+</head>
+
+<body>
+  
+
+<h1 class="ArticleTitle">
+  Create Hugo Theme Pt 2: Modularisation
+</h1>
+
+<p class="ArticleDate">2019 - 08 - 25</p>
+
+<div class="ArticleTags">
+  
+    
+    
+
+    
+      <a href="http://legendofcode.com/tags/dev">
+        <span class="ArticleTag">dev</span>
+      </a> 
+      
+        |
+      
+    
+      <a href="http://legendofcode.com/tags/hugo">
+        <span class="ArticleTag">hugo</span>
+      </a> 
+      
+    
+  
+</div>
+
+
+<main class="Article">
+  
+
+<p>Continuing on from <a href="https://legendofcode.com/posts/008-create-hugo-theme-pt-1/">part 1</a>, the last time we completed some basic scaffolding.  I&rsquo;ve updated the index.html with some content, as well as creating a new <code>post</code> in the contents folder.  The link on the index page will not work, because it&rsquo;s pointing towards a non-existent html file.</p>
+
+<p>Start the dev server with the command <code>hugo server</code></p>
+
+<p>The index page can be accessed at <a href="http://localhost:1313">http://localhost:1313</a>
+The single page can be accessed at <a href="http://localhost:1313/post/single/">http://localhost:1313/post/single/</a></p>
+
+<p>Quick explanation, the way single pages are handled, the contents of each post are generated into a <code>index.html</code> and placed into the <code>/posts/</code> directory. I then updated the <code>config.toml</code> with a permalink option to load posts using only the title. The single page can now be accessed at <a href="http://localhost:1313/single/">http://localhost:1313/single/</a></p>
+
+<pre><code class="language-toml">[permalinks]
+  post = &quot;:title&quot;
+</code></pre>
+
+<h2 id="splitting-the-template-into-parts-using-blocks">Splitting the template  into parts using <code>Blocks</code></h2>
+
+<p>Create a <code>layouts/_default/baseof.html</code> file. This is the file that Hugo <em>bases</em> all generated html off of.  Copy the contents from <code>index.html</code> into <code>baseof.html</code>, erase everything between the <code>&lt;body&gt;</code> tags , then add a single line <code>{{ block &quot;main&quot; . }}{{ end }}</code> .</p>
+
+<pre><code class="language-html">&lt;!-- baseof.html --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+  &lt;title&gt;{{ .Title }}&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  {{ block &quot;main&quot; . }}{{ end }}
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>What this does is tell Hugo to load all content that is defined as <code>main</code> into this block.</p>
+
+<p>In <code>index.html</code>, delete everything outside of the body tags and replaced it like this. Do the same for <code>single.html</code>. This defines the content as a <code>main</code> block that gets loaded into <code>baseof.html</code>. This saves us from repeating the same block of code in every html file.</p>
+
+<pre><code class="language-html">&lt;!-- index.html --&gt;
+{{ define &quot;main&quot; }}
+&lt;header class=&quot;Header&quot;&gt;
+...
+&lt;/footer&gt;
+{{ end }}
+
+&lt;!-- single.html --&gt;
+{{ define &quot;main&quot; }}
+&lt;h1 class=&quot;ArticleTitle&quot;&gt;
+...
+&lt;/footer&gt;
+{{ end }}
+</code></pre>
+
+<h2 id="splitting-pages-up-with-partials">Splitting pages up with <code>Partials</code></h2>
+
+<p>Since we&rsquo;re splitting stuff up into various parts,  let&rsquo;s do the rest as well. Here, we&rsquo;ve created a new <code>layouts/partials/</code> folder and add the below 3 html files, <code>head.html</code>, <code>main-header.html</code>, <code>main-footer.html</code>.</p>
+
+<pre><code class="language-html">&lt;!-- head.html --&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+  &lt;title&gt;{{ .Title }}&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;!-- main-header.html --&gt;
+&lt;header class=&quot;Header&quot;&gt;
+  &lt;p class=&quot;SiteHeader&quot;&gt;
+    &lt;h1 class=&quot;SiteTitle&quot;&gt;
+      Legend of Code
+    &lt;/h1&gt;
+    &lt;span class=&quot;SiteSubtitle&quot;&gt;is the website of&lt;/span&gt;
+  &lt;/p&gt;
+
+  &lt;p class=&quot;SiteSecondaryHeader&quot;&gt;Sen Heng&lt;/p&gt;
+
+  &lt;p class=&quot;&quot;&gt;
+    Front end engineer,&lt;br&gt;
+    UX designer,&lt;br&gt;
+    based in Tokyo.&lt;br&gt;
+  &lt;/p&gt;
+&lt;/header&gt;
+
+&lt;!-- main-footer.html --&gt;
+&lt;footer class=&quot;Footer&quot;&gt;
+  &lt;a href=&quot;https://github.com/thelegendofcode&quot; class=&quot;&quot;&gt;github.com/thelegendofcode&lt;/a&gt;
+
+  &lt;a href=&quot;mailto:sen@legendofcode.com&quot; class=&quot;&quot;&gt;sen@legendofcode.com&lt;/a&gt;
+
+  &lt;a href=&quot;https://twitter.com/legendofcode&quot; class=&quot;&quot;&gt;@legendofcode&lt;/a&gt;
+&lt;/footer&gt;
+</code></pre>
+
+<p>We shall now call the head partial from within <code>baseof.html</code>, and the main-header and main-footer from <code>index.html</code>.</p>
+
+<pre><code class="language-html">&lt;!-- baseof.html --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+{{ partial &quot;head&quot; . }}
+&lt;body&gt;
+  {{ block &quot;main&quot; . }}{{ end }}
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- index.html --&gt;
+{{ define &quot;main&quot; }}
+{{ partial &quot;main-header&quot; . }}
+...
+{{ partial &quot;main-footer&quot; }}
+{{ end }}
+</code></pre>
+
+<h2 id="difference-between-blocks-and-partials">Difference between Blocks and Partials</h2>
+
+<p><code>Blocks</code> are a higher level concept, based on default templates. You define blocks within the various templates like <code>single.html</code>, <code>list.html</code>  with the define command, like so <code>{{ define &quot;main&quot; }}</code>. Later, you use those blocks by calling them out from the <code>baseof.html</code> template using the block command <code>{{ block &quot;main&quot; }}</code>.</p>
+
+<p>If you were to define a footer <code>Block</code>, presumably in a <code>footer.html</code> like this.</p>
+
+<pre><code class="language-html">{{ define &quot;footer&quot; }}
+this is a footer!
+{{ end }}
+</code></pre>
+
+<p>It wouldn&rsquo;t do anything, because footer is not a template.</p>
+
+<p><code>Partials</code> are basically the splitting up of a template into multiple parts, especially parts that can be reused. Like say, a <code>footer.html</code> or a <code>nav.html</code>. You can then re-use these <code>Partials</code> in the other templates.</p>
+
+<p><a href="https://legendofcode.com/create-hugo-theme-pt-3-page-variables/">Part 3</a> will deal will generating single pages from data.</p>
+
+</main>
+
+<section class="ArticlePager">
+  <section class="PreviousArticle">
+    
+      <span class="PagerLabel">Previous</span>
+      <a href="http://legendofcode.com/posts/creating-a-hugo-theme-from-scratch-part-1/" class="ArticleTitle">Creating a Hugo theme from scratch, part 1</a>
+    
+  </section>
+  <section class="PreviousArticle">
+    <a href="/" class="ArticleTitle">Home</a>
+  </section>
+  <section class="PreviousArticle">
+    
+      <span class="PagerLabel">Next</span>
+      <a href="http://legendofcode.com/posts/create-hugo-theme-pt-3-page-variables/" class="ArticleTitle">Create Hugo Theme Pt 3: Page Variables</a>
+    
+  </section>
+</section>
+
+<footer class="Footer">
+  <p>copyright</p>
+</footer>
+
+
+</body>
+</html>
