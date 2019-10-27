@@ -1,6 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://legendofcode.com/til/005-make-zsh-macos-default/</loc>
+    <lastmod>2019-10-09T13:26:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/</loc>
+    <lastmod>2019-10-09T13:26:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/macos/</loc>
+    <lastmod>2019-10-09T13:26:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/</loc>
+    <lastmod>2019-10-09T13:26:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/til/</loc>
+    <lastmod>2019-10-09T13:26:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/til/</loc>
+    <lastmod>2019-10-09T13:26:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://legendofcode.com/tags/zsh/</loc>
+    <lastmod>2019-10-09T13:26:29+09:00</lastmod>
+  </url>
   
   <url>
     <loc>http://legendofcode.com/tags/git/</loc>
@@ -9,26 +44,6 @@
   
   <url>
     <loc>http://legendofcode.com/til/how-to-delete-a-git-tag/</loc>
-    <lastmod>2019-08-28T00:09:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/</loc>
-    <lastmod>2019-08-28T00:09:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/tags/</loc>
-    <lastmod>2019-08-28T00:09:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/tags/til/</loc>
-    <lastmod>2019-08-28T00:09:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://legendofcode.com/til/</loc>
     <lastmod>2019-08-28T00:09:00+09:00</lastmod>
   </url>
   
