@@ -1,0 +1,1 @@
+{"pageProps":{"article":{"data":{"title":"Git Undo Last Commit","date":"2022/05/25","description":"Simple one liner to undo last commit","series":[],"tags":["git"],"categories":[]},"content":"<p><code>git reset --soft head~1</code></p>\n<p>This command deletes the last commit and leaves everything in staged.</p>\n"}},"__N_SSG":true}
